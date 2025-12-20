@@ -18,20 +18,7 @@ dns:
   - tls://1.0.0.1:853
   - tls://dns.google:853
 proxies:
--{ name: K
-  server: cf.877774.xyz
-  port: 443
-  type: vless
-  uuid: c9912c7f-e3f5-465d-8e10-4d528484fed3
-  tls: true
-  tfo: false
-  skip-cert-verify: false
-  servername: yf.xhya.nyc.mn
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: yf.xhya.nyc.mn}
+   -{name: K,server: cf.877774.xyz,port: 443,type: vless,uuid: c9912c7f-e3f5-465d-8e10-4d528484fed3,tls: true,tfo: false,skip-cert-verify: false,servername: yf.xhya.nyc.mn,network: ws}
   - {name: AE_dd88d_0001, server: 147.78.0.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: BR_dd88d_0002, server: 185.192.124.188, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: CA_dd88d_0003, server: 193.203.203.66, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: S6jUK9Fw5fMHgNqlqXObHZWv8Tf4nEkm, udp: true}
