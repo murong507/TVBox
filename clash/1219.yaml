@@ -1,10 +1,13 @@
 port: 7890
 socks-port: 7891
-allow-lan: true
+allow-lan: false
 mode: rule
 log-level: info
-external-controller: :9090
-
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+hosts:
+  'mtalk.google.com': 108.177.125.188
 proxies:
   - {"name":"[V2] 香港00 LB","type":"trojan","server":"woft.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"cos.ap-guangzhou.myqcloud.com","skip-cert-verify":true,"udp":true}
   - {"name":"[V2] 香港01 HKT Home","type":"trojan","server":"woft.wocnode.com","port":12351,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"cos.ap-guangzhou.myqcloud.com","skip-cert-verify":true,"udp":true}
