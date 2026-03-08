@@ -17,36 +17,22 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"[V2] 香港00 LB","type":"trojan","server":"woft.wocnode.com","port":12350,"password":"a987b451-b116-3059-97d4-1d6f466602cb","sni":"cos.ap-guangzhou.myqcloud.com","skip-cert-verify":true,"udp":true}
   - {"name":"[V1] 直连-香港1","type":"vmess","server":"dhk1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
   - {"name":"[V1] 直连-香港2","type":"vmess","server":"dhk2.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
   - {"name":"[V1] 直连-香港3","type":"vmess","server":"dhk3.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
   - {"name":"[V3] 直连-台湾1","type":"vmess","server":"dtw1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
   - {"name":"[V2] 直连-美国1","type":"vmess","server":"dus1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V2] IPV6-中转1 三网","type":"vmess","server":"v6cn1.wocnode.com","port":12013,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"10.5.96.3"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"10.5.96.3"}}
-  - {"name":"[V2] IPV6-中转2 三网","type":"vmess","server":"v6cn2.wocnode.com","port":12013,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"10.5.96.3"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"10.5.96.3"}}
-  - {"name":"[V3] IPV6-香港1 移动","type":"vmess","server":"v6hk1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V2] IPV6-狮城1 移动","type":"vmess","server":"v6sg1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V2] IPV6-狮城2 移动","type":"vmess","server":"v6sg2.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
-  - {"name":"[V3] IPV6-日本1 联通","type":"vmess","server":"v6jp1.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
   - {"name":"官网：woccloud.net","type":"vmess","server":"dp.wocnode.com","port":443,"uuid":"a987b451-b116-3059-97d4-1d6f466602cb","alterId":0,"cipher":"auto","udp":true,"network":"ws","ws-opts":{"path":"/play.m3u8","headers":{"Host":"ws-aicdn.com"}},"ws-path":"/play.m3u8","ws-headers":{"Host":"ws-aicdn.com"},"tls":true,"skip-cert-verify":true}
 
 proxy-groups:
 - name: Proxy
   type: select
   proxies:
-    - '[V2] 香港00 LB'
     - '[V1] 直连-香港1'
     - '[V1] 直连-香港2'
     - '[V1] 直连-香港3'
     - '[V3] 直连-台湾1'
     - '[V2] 直连-美国1'
-    - '[V2] IPV6-中转1 三网'
-    - '[V2] IPV6-中转2 三网'
-    - '[V3] IPV6-香港1 移动'
-    - '[V2] IPV6-狮城1 移动'
-    - '[V2] IPV6-狮城2 移动'
-    - '[V3] IPV6-日本1 联通'
     - 官网：woccloud.net
 - name: Domestic
   type: select
