@@ -1,0 +1,179 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰香港节点
+  network: tcp
+  port: 9527
+  server: 45.192.101.134
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: ae862e1d-3b8c-443a-027b-37c6c69ef43c
+- cipher: aes-256-cfb
+  country: 🇭🇰HK
+  name: 🇭🇰香港节点
+  password: qwerREWQ@@
+  port: 41632
+  server: 112.213.102.188
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰香港节点
+  network: tcp
+  port: 57460
+  server: 117.18.125.183
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 8c99e6bf-a701-4534-cdde-abecd1d6826f
+- alterId: 0
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰香港节点
+  network: ws
+  port: 21879
+  server: 103.143.238.196
+  skip-cert-verify: true
+  sni: 103.143.238.196
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+  ws-opts:
+    path: /vmesswss
+- cipher: chacha20-ietf-poly1305
+  country: 🇹🇼TW
+  name: 🇹🇼台湾节点
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007147vhp.cybervena.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇰🇷KR
+  h2-opts: {}
+  http-opts: {}
+  name:  🇰🇷韩国节点
+  network: ws
+  port: 80
+  server: kr02.a0a.xyz
+  servername: kr02.a0a.xyz
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      HOST: kr02.a0a.xyz
+    path: /cctv13.m3u8  
+- alpn:
+  - h2
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 🇯🇵日本节点
+  network: http
+  port: 54291
+  server: 103.127.243.66
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
+- alpn:
+  - h2
+  alterId: 0
+  cipher: auto
+  http-opts:
+    headers: {}
+    path:
+    - /ABCDE
+  name: 🇯🇵日本节点
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  name: 🇯🇵日本节点
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-jp-016.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-jp-016.fastervpn.world
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: 🇯🇵日本节点
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- alpn:
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  host: vahid.EhSAnDIGiK.Ir
+  name:  🇯🇵日本节点
+  network: ws
+  path: /sg-2za3n.knotic.space/download
+  port: 443
+  server: vahid.eHSandIGIK.IR
+  servername: vahid.EhSAnDIGiK.Ir
+  skip-cert-verify: true
+  sni: vahid.eHSandIGIK.IR
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7b7c28e4-f570-4b4e-ba33-fe271d3e6828
+  ws-opts:
+    headers:
+      Host: vahid.EhSAnDIGiK.Ir
+    path: /sg-2za3n.knotic.space/download
+- alpn:
+  - http/1.1
+  alterId: 0
+  cipher: auto
+  name:  🇯🇵日本节点
+  network: ws
+  port: 443
+  server: sg-2za3n.knotic.space
+  servername: sg-2za3n.knotic.space
+  skip-cert-verify: true
+  sni: sg-2za3n.knotic.space
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7b7c28e4-f570-4b4e-ba33-fe271d3e6828
+  ws-opts:
+    headers:
+      Host: sg-2za3n.knotic.space
+    path: /download
