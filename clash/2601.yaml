@@ -38,7 +38,7 @@ proxy-groups:
     - '[V1] IPV6-香港1 移动'
     - '[V1] IPV6-狮城2 移动'
     - 官网：woccloud.net
-    
+
 rules:
 - DOMAIN-SUFFIX,linkedin.com,Proxy
 - DOMAIN-SUFFIX,openai.com,Proxy
@@ -524,5 +524,3 @@ rules:
 - IP-CIDR,199.96.56.0/21,Proxy
 - IP-CIDR,202.160.128.0/22,Proxy
 - IP-CIDR,209.237.192.0/19,Proxy
-- GEOIP,CN,Domestic
-- MATCH,Others
