@@ -57,6 +57,7 @@ proxy-groups:
   proxies:
     - Proxy
     - Domestic
+    
 rules:
 - DOMAIN,csgo.wmsj.cn,DIRECT
 - DOMAIN,dl.steam.clngaa.com,DIRECT
