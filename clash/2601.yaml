@@ -38,8 +38,6 @@ proxy-groups:
     - '[V1] IPV6-香港1 移动'
     - '[V1] IPV6-狮城2 移动'
     - 官网：woccloud.net
-    - Proxy
-    - Domestic
     
 rules:
 - DOMAIN-SUFFIX,linkedin.com,Proxy
