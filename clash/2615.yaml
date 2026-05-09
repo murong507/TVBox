@@ -1,24 +1,23 @@
 proxies:
-  - name: HK-47.76.254.70-4888
-     type: vmess
-     server: n1753101277.4u9ma.icu
-     port: 443   
-     uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-     tls: ws
-     network: ws
-     servername: n1753101277.4u9ma.icu
-     skip-cert-verify: true
-     ws-opts:
-      headers:
-      Host: n1753101277.4u9ma.icu
-      
+-name:HK-47.76.254.70-4888
+type:vmess
+server:n1753101277.4u9ma.icu
+port:443
+uuid:6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+tls:ws
+network:ws
+servername:n1753101277.4u9ma.icu
+skip-cert-verify:true
+ws-opts:
+headers:
+Host:n1753101277.4u9ma.icu
 
 proxy-groups:
-- name: 🔰 节点选择
- type: select
-  proxies:
-  - HK-47.76.254.70-4888
+-name:🔰节点选择
+type:select
+proxies:
+-HK-47.76.254.70-4888
 
- 
 rules:
-- MATCH,🔰 节点选择
+-MATCH,🔰节点选择
+
