@@ -54,13 +54,41 @@ proxies:
   sni: 202.146.222.16
   skip-cert-verify: true
   name: 🇭🇰 香港 @zmxooo7
+- type: vless
+  server: 47.76.218.163
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  cipher: auto
+  tls: true
+  udp: true
+  servername: sni.latonyamadeline.ndjp.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560&https://t.me/zmxooo🇨🇳
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 🇭🇰 香港 @zmxooo8
+- type: vless
+  server: 114.33.57.170
+  port: 443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  cipher: auto
+  tls: true
+  udp: true
+  servername: sni.latonyamadeline.ndjp.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560&https://t.me/zmxooo🇨🇳
+    headers:
+      Host: sni.latonyamadeline.ndjp.net
+  name: 🇹🇼 台湾 @zmxooo1  
 - type: hysteria2
   server: 160.187.100.109
   port: 443
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   sni: 160.187.100.109
   skip-cert-verify: true
-  name: 🇹🇼 台湾 @zmxooo1
+  name: 🇹🇼 台湾 @zmxooo2  
 - type: hysteria2
   server: 23.144.12.162
   port: 443
@@ -204,20 +232,6 @@ proxies:
   skip-cert-verify: true
   name: 🇺🇸 美国 @zmxooo5
 - type: vless
-  server: 47.76.218.163
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: sni.latonyamadeline.ndjp.net
-  network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/zmxooo🇨🇳
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-  name: 🇭🇰 香港 @zmxooo8
-- type: vless
   server: 221.168.213.173
   port: 32677
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
@@ -273,20 +287,6 @@ proxies:
     headers:
       Host: sni.latonyamadeline.ndjp.net
   name: 🇰🇷 韩国 @zmxooo4
-- type: vless
-  server: 114.33.57.170
-  port: 443
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  cipher: auto
-  tls: true
-  udp: true
-  servername: sni.latonyamadeline.ndjp.net
-  network: ws
-  ws-opts:
-    path: /?ed=2560&https://t.me/zmxooo🇨🇳
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-  name: 🇹🇼 台湾 @zmxooo3
 - type: vless
   server: 210.178.173.195
   port: 33848
@@ -691,6 +691,7 @@ proxy-groups:
   - 🇭🇰 香港 @zmxooo6
   - 🇭🇰 香港 @zmxooo7
   - 🇹🇼 台湾 @zmxooo1
+  - 🇹🇼 台湾 @zmxooo2
   - 🇺🇸 美国 @zmxooo1
   - 🇬🇧 英国 @zmxooo1
   - 🇬🇧 英国 @zmxooo2
@@ -712,7 +713,6 @@ proxy-groups:
   - 🇰🇷 韩国 @zmxooo2
   - 🇰🇷 韩国 @zmxooo3
   - 🇰🇷 韩国 @zmxooo4
-  - 🇹🇼 台湾 @zmxooo3
   - 🇰🇷 韩国 @zmxooo5
   - 🇰🇷 韩国 @zmxooo6
   - 🇰🇷 韩国 @zmxooo7
@@ -765,7 +765,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 🇹🇼 台湾 @zmxooo1
-  - 🇹🇼 台湾 @zmxooo3
+  - 🇹🇼 台湾 @zmxooo2
 - name: 🇺🇸 美国
   type: url-test
   url: http://gstatic.com
