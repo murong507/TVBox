@@ -24,23 +24,45 @@ proxies:
   - {name: "[VM] 直连-香港5", type: vmess, server: v3.cdn.wp85x4frjf6x.jjxdns.net, port: 31723, uuid: 29e5f410-68ce-33e0-b0ed-be1f73ab2088, alterId: 0, cipher: auto, network: ws, udp: true, tls: false, skip-cert-verify: false, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8}}
   - {name: "[VM] 直连-香港6", type: vmess, server: v3.cdn.wp85x4frjf6x.jjxdns.net, port: 31723, uuid: 29e5f410-68ce-33e0-b0ed-be1f73ab2088, alterId: 0, cipher: auto, udp: true, network: ws, tls: false,  skip-cert-verify: false, ws-opts: {path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8}}
   - {name: "[VL] 直连-香港1", type: vless, server: 22335.hk7.anan.cc, port: 22335, uuid: a3a8c354-a85c-477b-90f3-dbe08cadf31c, tls: true, reality-opts: {public-key: zPM3iLhD0ppwxYWzwiXFhQd1PwXCjFN9u28DbXdy604, short-id: "a2346cd0" }, servername: www.yahoo.com, client-fingerprint: chrome, flow: xtls-rprx-vision, network: tcp}
+  - {name: "[VL] 直连-香港2", type: vless, server: hk.chinablog.xyz, port: 8080, uuid: 360f1d71-f8dd-4c71-aa4f-347486312dca, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: bXstTdAgEyOn8LEMM_K2gIOw7T2iKhr6l-lXcrF4PlM}, servername: www.liblib.art, client-fingerprint: chrome, network: tcp}
 
 
 
   - {name: "[VM] 直连-台湾1", type: vmess, server: dtw1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: "[VM] 直连-台湾2", type: vmess, server: v11.zgtfqs.click, port: 30811, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true}  
-  - {name: "[VM] 直连-台湾3", type: vmess, server: v13.zgtfqs.click, port: 30813, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: true}   
-  
+  - {name: "[SS] 直连-台湾1",  type: ss, server: r3mrcg007147vhp.cybervena.com, port: 50099,cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4}  
 
 
-  - {name: "[VM] 直连-美国1", type: vmess, server: dus1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers: {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
-  - {name: "[VM] 直连-美国2", type: vmess, server: 82.198.246.214, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
+
+  - {name: "[VM] 直连-日本1", type: vmess, server: 2a02:6ea0:d32f::f8fe:349b, port: 24202, uuid: b20a7042-70ff-4376-a79f-b68f9edb7519, alterId: 0, cipher: auto,network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, tls: false, skip-cert-verify: false}
+  - {name: "[SS] 直连-日本1", type: ss, server: 47.79.144.115, port: 40003, cipher: aes-256-gcm, password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA}
+
   
+
+  - {name: "[VL] 直连-韩国1", type: vless, server: 222.113.18.214, port: 11310, uuid: b2b62085-f202-4c49-9f19-a44676a3d76d, tls: true, udp: true, ws-opts: {path: /ray, headers: {Host: vpn2.rnmcnm.com}}, servername: vpn2.rnmcnm.com, network: ws}
+  - {name: "[VL] 直连-俄国1", type: vless, server: r1.mizulina.top, port: 22231, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, tls: true, udp: true, flow: xtls-rprx-vision, servername: r1.mizulina.top, client-fingerprint: edge}
+
+
+
+  - {name: "[VM] 直连-美国1", type: vmess, server: 82.198.246.214, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
+  - {name: "[VL] 直连-美国1", type: vless, server: 209.166.46.195, port: 443, uuid: 73c16ed4-d111-4434-8b24-0dfe112a0813, tls: true, tfo: false, flow: xtls-rprx-vision, reality-opts: {public-key: wIFJUBk4GRYT8Oim0-cPDwlGaTHh3kUYP2tOlKz1xlc, short-id: 9f4380a6}, servername: www.microsoft.com, client-fingerprint: chrome}
+
+
+
+  - {name: "[VM] 直连-德国1", type: vmess, server: 82.198.246.37, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: "[VL] 直连-德国2", type: vless, server: frankfurt1.ap221.com, port: 443, uuid: 03491a57-f071-4c0c-84f2-f4ec9062ede1, tls: true, udp: true, flow: xtls-rprx-vision}
+
 
 
   - {name: "[VM] 直连-英国1", type: vmess, server: 82.198.246.9, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
   - {name: "[VM] 直连-英国2", type: vmess, server: 82.198.246.233, port: 180, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, udp: true, tls: false, skip-cert-verify: false}  
   
+
+
+
+  - {name: "[VM] 直连-法国1", type: vmess, server: v35.hdacd.com, port: 30835, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, network: tcp, http-opts: {}, ws-path: /, skip-cert-verify: true, delay: 2120}
+  - {name: "[VL] 直连-荷兰1", type: vless, server: 144.31.157.163, port: 443, uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb, tls: true, udp: true, flow: xtls-rprx-vision, servername: www.deepl.com, reality-opts: {public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU, short-id: 0123456789abcdef}, client-fingerprint: chrome}
+
+
 
 
   - {name: "[IP] IPV6-香港1 移动", type: vmess, server: v6hk1.wocnode.com, port: 443, uuid: a987b451-b116-3059-97d4-1d6f466602cb, alterId: 0,cipher: auto, udp: true, network: ws, ws-opts: {path: /play.m3u8, headers:     {Host: ws-aicdn.com}}, ws-path: /play.m3u8, ws-headers: {Host: ws-aicdn.com}, tls: true, skip-cert-verify: true}
@@ -58,13 +80,29 @@ proxy-groups:
     - '[VM] 直连-香港5'
     - '[VM] 直连-香港6'
     - '[VL] 直连-香港1'
+    - '[VL] 直连-香港2'
+
     - '[VM] 直连-台湾1'
-    - '[VM] 直连-台湾2'
-    - '[VM] 直连-台湾3'
+    - '[SS] 直连-台湾1'
+
+    - '[VM] 直连-日本1'   
+    - '[SS] 直连-日本1'
+
+    - '[VL] 直连-韩国1'
+    - '[VL] 直连-俄国1'
+
     - '[VM] 直连-美国1'
-    - '[VM] 直连-美国2'
+    - '[VL] 直连-美国1'
+
+    - '[VM] 直连-法国1'
+    - '[VL] 直连-荷兰1'
+
+    - '[VM] 直连-德国1'
+    - '[VL] 直连-德国2'
+
     - '[VM] 直连-英国1'
     - '[VM] 直连-英国2'
+
     - '[IP] IPV6-香港1 移动'
     - '[IP] IPV6-狮城1 移动'
     - 官网：woccloud.net
