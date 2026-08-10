@@ -1,0 +1,38 @@
+{
+  "spider": "https://cors.isteed.cc/https://github.com/child9527/qist_tvbox/blob/main/jar/fty.jar",
+  "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
+  "sites": [
+    {"key": "原创","name": "👒原创┃不卡","type": 3,"api": "csp_YCyzGuard","timeout": 15,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "立播","name": "🌟立播┃不卡","type": 3,"api": "csp_LibvioGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1,"ext": {"Cloud-drive": "tvfan/Cloud-drive.txt","siteUrl": "https://www.libvio.pw/"}},
+    {"key": "瓜子","name": "👀瓜子┃不卡","type": 3,"api": "csp_AppgzGuard","timeout": 15,"playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "比特","name": "🍄比特┃不卡","type": 3,"api": "csp_BttwooGuard","timeout": 10,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "糯米","name": "🍓糯米┃秒播","type": 3,"api": "csp_NmyswvGuard","timeout": 15,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key": "文采","name": "💮文采┃秒播","type": 3,"api": "csp_JpysGuard","timeout": 10,"playerType": 2,"searchable": 1,"quickSearch": 1,"changeable": 1},
+    {"key":"dadiapi.com","name":"💕色色┃成人滴滴","type":0,"api":"http://dadiapi.com/api.php","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33}},
+    {"key":"乐播","name":"️💕色色┃乐播资源","type":1,"api":"https://lbapi9.com/api.php/provide/vod/","playUrl":"","searchable":1,"quickSearch":1,"filterable":1,"categories":["国产主播","国产自拍","视频伦理","亚洲情色","卡通动画","欧美性爱","无码专区","制服诱惑","熟女人妻","巨乳美乳","强奸乱伦","中文字幕","女同性恋","少女萝莉","重口色情","人兽性交"]},
+    {"key":"杏吧资源","name":"💕色色┃杏吧资源","type":1,"api":"https://xingba111.com/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+    {"key":"玉兔资源","name":"💕色色┃玉兔资源","type":1,"api":"https://apiyutu.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
+    {"key":"大奶子资源","name":"💕色色┃大奶子源","type":1,"api":"https://apidanaizi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"桃花资源","name":"💕色色┃桃花资源","type":1,"api":"https://thzy1.me/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"滴滴资源","name":"💕色色┃滴滴资源","type":1,"api":"https://api.ddapi.cc/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"森林资源","name":"💕色色┃森林资源","type":1,"api":"https://slapibf.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"番号资源","name":"💕色色┃番号资源","type":1,"api":"http://fhapi9.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"X细胞资源","name":"💕色色┃细胞资源","type":1,"api":"https://www.xxibaozyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"百花资源","name":"💕色色┃百花资源","type":1,"api":"https://bhziyuan.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"155资源","name":"💕色色┃要污污源","type":1,"api":"https://155api.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1}
+  ],
+  "rules": [
+    {"name": "cdn.ryplay","hosts": ["cdn.ryplay"],"regex": ["5.480000","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]}
+  ],
+  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
+  "hosts": [
+  "img1.wsyzy.org=fan.cloudflare.182682.xyz",
+  "fiizvfck.top=fan.cloudflare.182682.xyz",
+  "images.67c6c7a.com=fan.cloudflare.182682.xyz"
+],
+  "lives": [
+    {"name": "develop202","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt","playerType": 2,"epg": "http://diyp5.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+    {"name": "Kimentanm","type": 0,"url": "https://gh.927223.xyz/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u","playerType": 2},
+    {"name": "范明明（需开启V6网络）","type": 0,"url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u","playerType": 2}
+  ]
+}
